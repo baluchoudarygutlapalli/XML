@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+<script>
+document.write("<hr>","*******Calculate Compound Interest*******","<hr>");
+var Principal=1000;
+var RateOfInterest=10;
+var PeriodInYears=1;
+</script>
+<script>
+var r=(RateOfInterest/100);
+var a=Math.pow((1+r),PeriodInYears);
+var compInterest=(Principal*a)-Principal;
+document.write("Principal         -"+Principal+"rs","<br>");
+document.write("Rate of Interest  -"+RateOfInterest+"%","<br>");
+document.write("Period            -"+PeriodInYears+"yr","<br>");
+document.write("comp Interest     -"+compInterest);
+</script>
+</body>
+</html>

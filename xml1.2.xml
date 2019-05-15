@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<email>
+
+<ul>TO</ul>
+
+<head>from</head>
+
+<can>CC</can>
+
+<bcc>BCC</bcc>
+
+<sub>Subject</sub>
+
+<man>Body</man>
+
+</email>

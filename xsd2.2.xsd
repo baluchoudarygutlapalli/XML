@@ -1,0 +1,43 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<!--  definition of simple elements  -->
+
+<xs:element name="TO" type="xs:string"/>
+
+<xs:element name="FROM" type="xs:string"/>
+
+<xs:element name="CC" type="xs:string"/>
+
+<xs:element name="BCC" type="xs:string"/>
+
+<xs:element name="SUBJECT" type="xs:string"/>
+
+<xs:element name="BODY" type="xs:string"/>
+
+<!--  definition of complex elements  -->
+
+<xs:element name="email">
+
+<xs:complexType>
+
+<xs:sequence>
+
+<xs:element ref="TO"/>
+
+<xs:element ref="FROM"/>
+
+<xs:element ref="CC"/>
+
+<xs:element ref="BCC"/>
+
+<xs:element ref="SUBJECT"/>
+
+<xs:element ref="BODY"/>
+
+</xs:sequence>
+
+</xs:complexType>
+
+</xs:element>
+
+</xs:schema>

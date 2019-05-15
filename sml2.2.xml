@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+
+ <email xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+
+xsi:noNamespaceSchemaLocation="1.2.xsd">
+
+<TO>sekhar</TO>
+
+<FROM>shiva</FROM>
+
+<CC>reddy</CC>
+
+<BCC>vanukuri</BCC>
+
+<SUBJECT>buying</SUBJECT>
+
+<BODY>i want one icecream</BODY>
+
+</email>

@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+<p id="demo"></p>
+<script>
+var d = new Date();
+document.getElementById("demo").innerHTML = d;
+</script>
+<script>
+getHours(d);
+</script>
+
+<script>
+function getHours(demo){
+  if(demo<12){
+  document.write("Good Morning");
+  }
+  else if(demo>=12 && demo<=17){
+  document.write("Good Afternoon");
+  }
+  else (d>17){
+  document.write("Good Evening");
+  }
+}
+</script>
+</body>
+</html>

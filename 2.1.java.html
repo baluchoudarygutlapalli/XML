@@ -1,0 +1,51 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+ <script src="while.html">
+</script>
+<script src="dowhile.html">
+</script>
+</head>
+<body> 
+<script>  
+var count=0;
+for(var i=0;i<100;i++){
+count++;
+  if(count%10==0){
+   document.write(i,'<br>');
+   }
+  else{
+  document.write(i," ");
+  }
+ 
+ }</script>
+</body> 
+</html> 
+
+
+var count=0;
+var i=0
+while(i<100){
+count++;
+  if(count%10==0){
+   document.write(i,'<br>');
+   }
+  else{
+  document.write(i," ");
+  }
+ i++;
+ }
+
+
+var count=0;
+var i=0
+do{
+count++;
+  if(count%10==0){
+   document.write(i,'<br>');
+   }
+  else{
+  document.write(i," ");
+  }
+ i++;
+ }while(i<100);
